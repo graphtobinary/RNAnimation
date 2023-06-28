@@ -1,6 +1,8 @@
 # React Native Animation 
 
+![IOS](https://github.com/graphtobinary/RNAnimation/blob/master/src/assets/ezgif-5-dddae8ad2a.gif)
+
 
 |                    |                    |
 | :----------------: | :----------------: |
-| ![Demo 1](https://github.com/graphtobinary/RNAnimation/blob/master/src/assets/ios.gif) | ![Demo 2](https://github.com/graphtobinary/RNAnimation/blob/master/src/assets/android.gif) |
+| ![IOS](https://github.com/graphtobinary/RNAnimation/blob/master/src/assets/ios.gif) | ![Android](https://github.com/graphtobinary/RNAnimation/blob/master/src/assets/android.gif) |
