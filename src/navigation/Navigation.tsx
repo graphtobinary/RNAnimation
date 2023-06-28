@@ -7,6 +7,7 @@ import { isAndroid } from "@freakycoder/react-native-helpers";
 import { NavigationContainer } from "@react-navigation/native";
 import { isReadyRef, navigationRef } from "react-navigation-helpers";
 import HomeScreen from "../screens/Home";
+import Home2 from "../screens/Home2";
 import DetailScreen from "../screens/Detail";
 import LayoutAN from "../screens/LayoutAN";
 
@@ -25,12 +26,13 @@ const Navigation = () => {
       }}
     >
       <Stack.Navigator
-        initialRouteName="home"
+        initialRouteName="home2"
         screenOptions={{
           gestureEnabled: true,
           ...(isAndroid && TransitionPresets.ModalPresentationIOS),
         }}
       >
+        <Stack.Screen name="home2" component={Home2} />
         <Stack.Group
           screenOptions={{
             headerShown: false,
